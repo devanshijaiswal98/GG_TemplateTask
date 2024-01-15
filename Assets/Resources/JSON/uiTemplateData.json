@@ -1,0 +1,2473 @@
+{
+  "name": "Canvas",
+  "componentType": [
+    "UnityEngine.RectTransform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "UnityEngine.Canvas, UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "UnityEngine.UI.CanvasScaler, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "UnityEngine.UI.GraphicRaycaster, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "position": {
+    "x": 202.0,
+    "y": 448.5,
+    "z": 0.0
+  },
+  "rotation": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "w": 1.0,
+    "eulerAngles": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  "scale": {
+    "x": 0.418046325,
+    "y": 0.418046325,
+    "z": 0.418046325
+  },
+  "color": {
+    "r": 0,
+    "g": 0,
+    "b": 0,
+    "a": 0
+  },
+  "textColor": {
+    "r": 0,
+    "g": 0,
+    "b": 0,
+    "a": 0
+  },
+  "tag": "Untagged",
+  "text": null,
+  "textAlignment": 4,
+  "spriteLocation": null,
+  "rating": 0,
+  "parentName": null,
+  "uiTransformValues": {
+    "minAnchor": {
+      "x": 0.0,
+      "y": 0.0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0.0
+    },
+    "maxAnchor": {
+      "x": 0.0,
+      "y": 0.0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0.0
+    },
+    "sizeDelta": {
+      "x": 966.4001,
+      "y": 2145.69531,
+      "normalized": {
+        "x": 0.4106605,
+        "y": 0.911788344,
+        "magnitude": 1.0,
+        "sqrMagnitude": 1.0
+      },
+      "magnitude": 2353.28223,
+      "sqrMagnitude": 5537937.5
+    },
+    "offSetMax": {
+      "x": 685.2001,
+      "y": 1521.34766,
+      "normalized": {
+        "x": 0.410660535,
+        "y": 0.911788344,
+        "magnitude": 1.0,
+        "sqrMagnitude": 1.00000012
+      },
+      "magnitude": 1668.53162,
+      "sqrMagnitude": 2783997.75
+    },
+    "offSetMin": {
+      "x": -281.200043,
+      "y": -624.347656,
+      "normalized": {
+        "x": -0.410660475,
+        "y": -0.9117883,
+        "normalized": {
+          "x": -0.4106605,
+          "y": -0.911788344,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 0.99999994,
+        "sqrMagnitude": 0.9999999
+      },
+      "magnitude": 684.7507,
+      "sqrMagnitude": 468883.469
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5,
+      "normalized": {
+        "x": 0.707106769,
+        "y": 0.707106769,
+        "magnitude": 1.0,
+        "sqrMagnitude": 0.99999994
+      },
+      "magnitude": 0.707106769,
+      "sqrMagnitude": 0.5
+    }
+  },
+  "children": [
+    {
+      "name": "BG",
+      "componentType": [
+        "UnityEngine.RectTransform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "UnityEngine.CanvasRenderer, UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "UnityEngine.UI.Image, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+      ],
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0,
+        "eulerAngles": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "color": {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 16
+      },
+      "textColor": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+      },
+      "tag": "Untagged",
+      "text": null,
+      "textAlignment": 4,
+      "spriteLocation": null,
+      "rating": 0,
+      "parentName": "Canvas",
+      "uiTransformValues": {
+        "minAnchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "maxAnchor": {
+          "x": 1.0,
+          "y": 1.0,
+          "normalized": {
+            "x": 0.707106769,
+            "y": 0.707106769,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.41421354,
+          "sqrMagnitude": 2.0
+        },
+        "sizeDelta": {
+          "x": 0.0,
+          "y": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "offSetMax": {
+          "x": 0.0,
+          "y": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "offSetMin": {
+          "x": 0.0,
+          "y": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5,
+          "normalized": {
+            "x": 0.707106769,
+            "y": 0.707106769,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 0.707106769,
+          "sqrMagnitude": 0.5
+        }
+      },
+      "children": []
+    },
+    {
+      "name": "PlaceHolder",
+      "componentType": [
+        "UnityEngine.RectTransform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+      ],
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0,
+        "eulerAngles": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "color": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+      },
+      "textColor": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+      },
+      "tag": "Untagged",
+      "text": null,
+      "textAlignment": 4,
+      "spriteLocation": null,
+      "rating": 0,
+      "parentName": "Canvas",
+      "uiTransformValues": {
+        "minAnchor": {
+          "x": 0.0,
+          "y": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "maxAnchor": {
+          "x": 1.0,
+          "y": 1.0,
+          "normalized": {
+            "x": 0.707106769,
+            "y": 0.707106769,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 1.41421354,
+          "sqrMagnitude": 2.0
+        },
+        "sizeDelta": {
+          "x": 0.0,
+          "y": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "offSetMax": {
+          "x": 0.0,
+          "y": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "offSetMin": {
+          "x": 0.0,
+          "y": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5,
+          "normalized": {
+            "x": 0.707106769,
+            "y": 0.707106769,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 0.707106769,
+          "sqrMagnitude": 0.5
+        }
+      },
+      "children": []
+    },
+    {
+      "name": "SampleFormat",
+      "componentType": [
+        "UnityEngine.RectTransform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "UnityEngine.CanvasRenderer, UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "UnityEngine.UI.Image, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+      ],
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0,
+        "eulerAngles": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "color": {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      },
+      "textColor": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+      },
+      "tag": "Main",
+      "text": null,
+      "textAlignment": 4,
+      "spriteLocation": "UISprite",
+      "rating": 0,
+      "parentName": "Canvas",
+      "uiTransformValues": {
+        "minAnchor": {
+          "x": 0.0,
+          "y": 0.5,
+          "normalized": {
+            "x": 0.0,
+            "y": 1.0,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.5,
+          "sqrMagnitude": 0.25
+        },
+        "maxAnchor": {
+          "x": 1.0,
+          "y": 0.5,
+          "normalized": {
+            "x": 0.8944272,
+            "y": 0.4472136,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 1.118034,
+          "sqrMagnitude": 1.25
+        },
+        "sizeDelta": {
+          "x": -40.0,
+          "y": 450.0,
+          "normalized": {
+            "x": -0.08853979,
+            "y": 0.9960726,
+            "normalized": {
+              "x": -0.0885397941,
+              "y": 0.99607265,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.9999999
+          },
+          "magnitude": 451.7743,
+          "sqrMagnitude": 204100.0
+        },
+        "offSetMax": {
+          "x": -20.0,
+          "y": 225.0,
+          "normalized": {
+            "x": -0.08853979,
+            "y": 0.9960726,
+            "normalized": {
+              "x": -0.0885397941,
+              "y": 0.99607265,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.9999999
+          },
+          "magnitude": 225.887146,
+          "sqrMagnitude": 51025.0
+        },
+        "offSetMin": {
+          "x": 20.0,
+          "y": -225.0,
+          "normalized": {
+            "x": 0.08853979,
+            "y": -0.9960726,
+            "normalized": {
+              "x": 0.0885397941,
+              "y": -0.99607265,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.9999999
+          },
+          "magnitude": 225.887146,
+          "sqrMagnitude": 51025.0
+        },
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5,
+          "normalized": {
+            "x": 0.707106769,
+            "y": 0.707106769,
+            "magnitude": 1.0,
+            "sqrMagnitude": 0.99999994
+          },
+          "magnitude": 0.707106769,
+          "sqrMagnitude": 0.5
+        }
+      },
+      "children": [
+        {
+          "name": "Holder",
+          "componentType": [
+            "UnityEngine.RectTransform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0,
+            "eulerAngles": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0
+          },
+          "tag": "Untagged",
+          "text": null,
+          "textAlignment": 4,
+          "spriteLocation": null,
+          "rating": 0,
+          "parentName": "SampleFormat",
+          "uiTransformValues": {
+            "minAnchor": {
+              "x": 0.0,
+              "y": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            },
+            "maxAnchor": {
+              "x": 1.0,
+              "y": 1.0,
+              "normalized": {
+                "x": 0.707106769,
+                "y": 0.707106769,
+                "magnitude": 1.0,
+                "sqrMagnitude": 0.99999994
+              },
+              "magnitude": 1.41421354,
+              "sqrMagnitude": 2.0
+            },
+            "sizeDelta": {
+              "x": 0.0,
+              "y": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            },
+            "offSetMax": {
+              "x": 0.0,
+              "y": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            },
+            "offSetMin": {
+              "x": 0.0,
+              "y": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            },
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5,
+              "normalized": {
+                "x": 0.707106769,
+                "y": 0.707106769,
+                "magnitude": 1.0,
+                "sqrMagnitude": 0.99999994
+              },
+              "magnitude": 0.707106769,
+              "sqrMagnitude": 0.5
+            }
+          },
+          "children": [
+            {
+              "name": "RawImage_adchoicesIcon",
+              "componentType": [
+                "UnityEngine.RectTransform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "UnityEngine.CanvasRenderer, UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "UnityEngine.UI.RawImage, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+              ],
+              "position": {
+                "x": -401.0,
+                "y": 176.0,
+                "z": 0.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0,
+                "eulerAngles": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "color": {
+                "r": 232,
+                "g": 139,
+                "b": 23,
+                "a": 255
+              },
+              "textColor": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              },
+              "tag": "Untagged",
+              "text": null,
+              "textAlignment": 4,
+              "spriteLocation": null,
+              "rating": 0,
+              "parentName": "Holder",
+              "uiTransformValues": {
+                "minAnchor": {
+                  "x": 0.5,
+                  "y": 0.5,
+                  "normalized": {
+                    "x": 0.707106769,
+                    "y": 0.707106769,
+                    "magnitude": 1.0,
+                    "sqrMagnitude": 0.99999994
+                  },
+                  "magnitude": 0.707106769,
+                  "sqrMagnitude": 0.5
+                },
+                "maxAnchor": {
+                  "x": 0.5,
+                  "y": 0.5,
+                  "normalized": {
+                    "x": 0.707106769,
+                    "y": 0.707106769,
+                    "magnitude": 1.0,
+                    "sqrMagnitude": 0.99999994
+                  },
+                  "magnitude": 0.707106769,
+                  "sqrMagnitude": 0.5
+                },
+                "sizeDelta": {
+                  "x": 70.0,
+                  "y": 40.0,
+                  "normalized": {
+                    "x": 0.868243158,
+                    "y": 0.49613896,
+                    "magnitude": 1.0,
+                    "sqrMagnitude": 1.0
+                  },
+                  "magnitude": 80.6225739,
+                  "sqrMagnitude": 6500.0
+                },
+                "offSetMax": {
+                  "x": -366.0,
+                  "y": 196.0,
+                  "normalized": {
+                    "x": -0.881551564,
+                    "y": 0.472087741,
+                    "magnitude": 1.0,
+                    "sqrMagnitude": 1.0
+                  },
+                  "magnitude": 415.177063,
+                  "sqrMagnitude": 172372.0
+                },
+                "offSetMin": {
+                  "x": -436.0,
+                  "y": 156.0,
+                  "normalized": {
+                    "x": -0.9415463,
+                    "y": 0.336883545,
+                    "magnitude": 1.0,
+                    "sqrMagnitude": 1.0
+                  },
+                  "magnitude": 463.068024,
+                  "sqrMagnitude": 214432.0
+                },
+                "pivot": {
+                  "x": 0.5,
+                  "y": 0.5,
+                  "normalized": {
+                    "x": 0.707106769,
+                    "y": 0.707106769,
+                    "magnitude": 1.0,
+                    "sqrMagnitude": 0.99999994
+                  },
+                  "magnitude": 0.707106769,
+                  "sqrMagnitude": 0.5
+                }
+              },
+              "children": []
+            },
+            {
+              "name": "adTag",
+              "componentType": [
+                "UnityEngine.RectTransform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "UnityEngine.CanvasRenderer, UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+              ],
+              "position": {
+                "x": -401.0,
+                "y": 176.4,
+                "z": 0.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0,
+                "eulerAngles": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              },
+              "textColor": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 255
+              },
+              "tag": "BoldText",
+              "text": "AD",
+              "textAlignment": 4,
+              "spriteLocation": null,
+              "rating": 0,
+              "parentName": "Holder",
+              "uiTransformValues": {
+                "minAnchor": {
+                  "x": 0.5,
+                  "y": 0.5,
+                  "normalized": {
+                    "x": 0.707106769,
+                    "y": 0.707106769,
+                    "magnitude": 1.0,
+                    "sqrMagnitude": 0.99999994
+                  },
+                  "magnitude": 0.707106769,
+                  "sqrMagnitude": 0.5
+                },
+                "maxAnchor": {
+                  "x": 0.5,
+                  "y": 0.5,
+                  "normalized": {
+                    "x": 0.707106769,
+                    "y": 0.707106769,
+                    "magnitude": 1.0,
+                    "sqrMagnitude": 0.99999994
+                  },
+                  "magnitude": 0.707106769,
+                  "sqrMagnitude": 0.5
+                },
+                "sizeDelta": {
+                  "x": 70.0,
+                  "y": 40.0,
+                  "normalized": {
+                    "x": 0.868243158,
+                    "y": 0.49613896,
+                    "magnitude": 1.0,
+                    "sqrMagnitude": 1.0
+                  },
+                  "magnitude": 80.6225739,
+                  "sqrMagnitude": 6500.0
+                },
+                "offSetMax": {
+                  "x": -366.0,
+                  "y": 196.4,
+                  "normalized": {
+                    "x": -0.8811505,
+                    "y": 0.472835928,
+                    "magnitude": 1.0,
+                    "sqrMagnitude": 1.0
+                  },
+                  "magnitude": 415.366058,
+                  "sqrMagnitude": 172528.953
+                },
+                "offSetMin": {
+                  "x": -436.0,
+                  "y": 156.4,
+                  "normalized": {
+                    "x": -0.9412721,
+                    "y": 0.337648958,
+                    "magnitude": 1.0,
+                    "sqrMagnitude": 0.99999994
+                  },
+                  "magnitude": 463.202942,
+                  "sqrMagnitude": 214556.953
+                },
+                "pivot": {
+                  "x": 0.5,
+                  "y": 0.5,
+                  "normalized": {
+                    "x": 0.707106769,
+                    "y": 0.707106769,
+                    "magnitude": 1.0,
+                    "sqrMagnitude": 0.99999994
+                  },
+                  "magnitude": 0.707106769,
+                  "sqrMagnitude": 0.5
+                }
+              },
+              "children": []
+            },
+            {
+              "name": "Padding",
+              "componentType": [
+                "UnityEngine.RectTransform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+              ],
+              "position": {
+                "x": 0.0,
+                "y": 11.0,
+                "z": 0.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0,
+                "eulerAngles": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              },
+              "textColor": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              },
+              "tag": "Untagged",
+              "text": null,
+              "textAlignment": 4,
+              "spriteLocation": null,
+              "rating": 0,
+              "parentName": "Holder",
+              "uiTransformValues": {
+                "minAnchor": {
+                  "x": 0.0,
+                  "y": 0.5,
+                  "normalized": {
+                    "x": 0.0,
+                    "y": 1.0,
+                    "magnitude": 1.0,
+                    "sqrMagnitude": 1.0
+                  },
+                  "magnitude": 0.5,
+                  "sqrMagnitude": 0.25
+                },
+                "maxAnchor": {
+                  "x": 1.0,
+                  "y": 0.5,
+                  "normalized": {
+                    "x": 0.8944272,
+                    "y": 0.4472136,
+                    "magnitude": 1.0,
+                    "sqrMagnitude": 1.0
+                  },
+                  "magnitude": 1.118034,
+                  "sqrMagnitude": 1.25
+                },
+                "sizeDelta": {
+                  "x": 0.0,
+                  "y": 100.0,
+                  "normalized": {
+                    "x": 0.0,
+                    "y": 1.0,
+                    "magnitude": 1.0,
+                    "sqrMagnitude": 1.0
+                  },
+                  "magnitude": 100.0,
+                  "sqrMagnitude": 10000.0
+                },
+                "offSetMax": {
+                  "x": 0.0,
+                  "y": 61.0,
+                  "normalized": {
+                    "x": 0.0,
+                    "y": 1.0,
+                    "magnitude": 1.0,
+                    "sqrMagnitude": 1.0
+                  },
+                  "magnitude": 61.0,
+                  "sqrMagnitude": 3721.0
+                },
+                "offSetMin": {
+                  "x": 0.0,
+                  "y": -39.0,
+                  "normalized": {
+                    "x": 0.0,
+                    "y": -1.0,
+                    "magnitude": 1.0,
+                    "sqrMagnitude": 1.0
+                  },
+                  "magnitude": 39.0,
+                  "sqrMagnitude": 1521.0
+                },
+                "pivot": {
+                  "x": 0.5,
+                  "y": 0.5,
+                  "normalized": {
+                    "x": 0.707106769,
+                    "y": 0.707106769,
+                    "magnitude": 1.0,
+                    "sqrMagnitude": 0.99999994
+                  },
+                  "magnitude": 0.707106769,
+                  "sqrMagnitude": 0.5
+                }
+              },
+              "children": [
+                {
+                  "name": "Appdetails",
+                  "componentType": [
+                    "UnityEngine.RectTransform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  ],
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0,
+                    "eulerAngles": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    }
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 0
+                  },
+                  "textColor": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 0
+                  },
+                  "tag": "Untagged",
+                  "text": null,
+                  "textAlignment": 4,
+                  "spriteLocation": null,
+                  "rating": 0,
+                  "parentName": "Padding",
+                  "uiTransformValues": {
+                    "minAnchor": {
+                      "x": 0.0,
+                      "y": 0.5,
+                      "normalized": {
+                        "x": 0.0,
+                        "y": 1.0,
+                        "magnitude": 1.0,
+                        "sqrMagnitude": 1.0
+                      },
+                      "magnitude": 0.5,
+                      "sqrMagnitude": 0.25
+                    },
+                    "maxAnchor": {
+                      "x": 1.0,
+                      "y": 0.5,
+                      "normalized": {
+                        "x": 0.8944272,
+                        "y": 0.4472136,
+                        "magnitude": 1.0,
+                        "sqrMagnitude": 1.0
+                      },
+                      "magnitude": 1.118034,
+                      "sqrMagnitude": 1.25
+                    },
+                    "sizeDelta": {
+                      "x": 0.0,
+                      "y": 100.0,
+                      "normalized": {
+                        "x": 0.0,
+                        "y": 1.0,
+                        "magnitude": 1.0,
+                        "sqrMagnitude": 1.0
+                      },
+                      "magnitude": 100.0,
+                      "sqrMagnitude": 10000.0
+                    },
+                    "offSetMax": {
+                      "x": 0.0,
+                      "y": 50.0,
+                      "normalized": {
+                        "x": 0.0,
+                        "y": 1.0,
+                        "magnitude": 1.0,
+                        "sqrMagnitude": 1.0
+                      },
+                      "magnitude": 50.0,
+                      "sqrMagnitude": 2500.0
+                    },
+                    "offSetMin": {
+                      "x": 0.0,
+                      "y": -50.0,
+                      "normalized": {
+                        "x": 0.0,
+                        "y": -1.0,
+                        "magnitude": 1.0,
+                        "sqrMagnitude": 1.0
+                      },
+                      "magnitude": 50.0,
+                      "sqrMagnitude": 2500.0
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5,
+                      "normalized": {
+                        "x": 0.707106769,
+                        "y": 0.707106769,
+                        "magnitude": 1.0,
+                        "sqrMagnitude": 0.99999994
+                      },
+                      "magnitude": 0.707106769,
+                      "sqrMagnitude": 0.5
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "AppIconHolder",
+                      "componentType": [
+                        "UnityEngine.RectTransform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      ],
+                      "position": {
+                        "x": -361.0,
+                        "y": 56.0,
+                        "z": 0.0
+                      },
+                      "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0,
+                        "eulerAngles": {
+                          "x": 0.0,
+                          "y": 0.0,
+                          "z": 0.0
+                        }
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0
+                      },
+                      "textColor": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0
+                      },
+                      "tag": "Untagged",
+                      "text": null,
+                      "textAlignment": 4,
+                      "spriteLocation": null,
+                      "rating": 0,
+                      "parentName": "Appdetails",
+                      "uiTransformValues": {
+                        "minAnchor": {
+                          "x": 0.5,
+                          "y": 0.5,
+                          "normalized": {
+                            "x": 0.707106769,
+                            "y": 0.707106769,
+                            "magnitude": 1.0,
+                            "sqrMagnitude": 0.99999994
+                          },
+                          "magnitude": 0.707106769,
+                          "sqrMagnitude": 0.5
+                        },
+                        "maxAnchor": {
+                          "x": 0.5,
+                          "y": 0.5,
+                          "normalized": {
+                            "x": 0.707106769,
+                            "y": 0.707106769,
+                            "magnitude": 1.0,
+                            "sqrMagnitude": 0.99999994
+                          },
+                          "magnitude": 0.707106769,
+                          "sqrMagnitude": 0.5
+                        },
+                        "sizeDelta": {
+                          "x": 100.0,
+                          "y": 100.0,
+                          "normalized": {
+                            "x": 0.707106769,
+                            "y": 0.707106769,
+                            "magnitude": 1.0,
+                            "sqrMagnitude": 0.99999994
+                          },
+                          "magnitude": 141.421356,
+                          "sqrMagnitude": 20000.0
+                        },
+                        "offSetMax": {
+                          "x": -311.0,
+                          "y": 106.0,
+                          "normalized": {
+                            "x": -0.9465313,
+                            "y": 0.322611958,
+                            "magnitude": 1.0,
+                            "sqrMagnitude": 0.99999994
+                          },
+                          "magnitude": 328.5681,
+                          "sqrMagnitude": 107957.0
+                        },
+                        "offSetMin": {
+                          "x": -411.0,
+                          "y": 6.0,
+                          "normalized": {
+                            "x": -0.9998935,
+                            "y": 0.0145969847,
+                            "magnitude": 1.0,
+                            "sqrMagnitude": 1.0
+                          },
+                          "magnitude": 411.0438,
+                          "sqrMagnitude": 168957.0
+                        },
+                        "pivot": {
+                          "x": 0.5,
+                          "y": 0.5,
+                          "normalized": {
+                            "x": 0.707106769,
+                            "y": 0.707106769,
+                            "magnitude": 1.0,
+                            "sqrMagnitude": 0.99999994
+                          },
+                          "magnitude": 0.707106769,
+                          "sqrMagnitude": 0.5
+                        }
+                      },
+                      "children": [
+                        {
+                          "name": "RawImage_adIcon",
+                          "componentType": [
+                            "UnityEngine.RectTransform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                            "UnityEngine.CanvasRenderer, UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                            "UnityEngine.UI.RawImage, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                          ],
+                          "position": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                          },
+                          "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0,
+                            "eulerAngles": {
+                              "x": 0.0,
+                              "y": 0.0,
+                              "z": 0.0
+                            }
+                          },
+                          "scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "color": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "a": 255
+                          },
+                          "textColor": {
+                            "r": 0,
+                            "g": 0,
+                            "b": 0,
+                            "a": 0
+                          },
+                          "tag": "Untagged",
+                          "text": null,
+                          "textAlignment": 4,
+                          "spriteLocation": "TestIcon",
+                          "rating": 0,
+                          "parentName": "AppIconHolder",
+                          "uiTransformValues": {
+                            "minAnchor": {
+                              "x": 0.5,
+                              "y": 0.5,
+                              "normalized": {
+                                "x": 0.707106769,
+                                "y": 0.707106769,
+                                "magnitude": 1.0,
+                                "sqrMagnitude": 0.99999994
+                              },
+                              "magnitude": 0.707106769,
+                              "sqrMagnitude": 0.5
+                            },
+                            "maxAnchor": {
+                              "x": 0.5,
+                              "y": 0.5,
+                              "normalized": {
+                                "x": 0.707106769,
+                                "y": 0.707106769,
+                                "magnitude": 1.0,
+                                "sqrMagnitude": 0.99999994
+                              },
+                              "magnitude": 0.707106769,
+                              "sqrMagnitude": 0.5
+                            },
+                            "sizeDelta": {
+                              "x": 150.0,
+                              "y": 150.0,
+                              "normalized": {
+                                "x": 0.707106769,
+                                "y": 0.707106769,
+                                "magnitude": 1.0,
+                                "sqrMagnitude": 0.99999994
+                              },
+                              "magnitude": 212.132034,
+                              "sqrMagnitude": 45000.0
+                            },
+                            "offSetMax": {
+                              "x": 75.0,
+                              "y": 75.0,
+                              "normalized": {
+                                "x": 0.707106769,
+                                "y": 0.707106769,
+                                "magnitude": 1.0,
+                                "sqrMagnitude": 0.99999994
+                              },
+                              "magnitude": 106.066017,
+                              "sqrMagnitude": 11250.0
+                            },
+                            "offSetMin": {
+                              "x": -75.0,
+                              "y": -75.0,
+                              "normalized": {
+                                "x": -0.707106769,
+                                "y": -0.707106769,
+                                "magnitude": 1.0,
+                                "sqrMagnitude": 0.99999994
+                              },
+                              "magnitude": 106.066017,
+                              "sqrMagnitude": 11250.0
+                            },
+                            "pivot": {
+                              "x": 0.5,
+                              "y": 0.5,
+                              "normalized": {
+                                "x": 0.707106769,
+                                "y": 0.707106769,
+                                "magnitude": 1.0,
+                                "sqrMagnitude": 0.99999994
+                              },
+                              "magnitude": 0.707106769,
+                              "sqrMagnitude": 0.5
+                            }
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "AppInfo",
+                      "componentType": [
+                        "UnityEngine.RectTransform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      ],
+                      "position": {
+                        "x": 100.407043,
+                        "y": 103.0,
+                        "z": 0.0
+                      },
+                      "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0,
+                        "eulerAngles": {
+                          "x": 0.0,
+                          "y": 0.0,
+                          "z": 0.0
+                        }
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0
+                      },
+                      "textColor": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0
+                      },
+                      "tag": "Untagged",
+                      "text": null,
+                      "textAlignment": 4,
+                      "spriteLocation": null,
+                      "rating": 0,
+                      "parentName": "Appdetails",
+                      "uiTransformValues": {
+                        "minAnchor": {
+                          "x": 0.0,
+                          "y": 0.5,
+                          "normalized": {
+                            "x": 0.0,
+                            "y": 1.0,
+                            "magnitude": 1.0,
+                            "sqrMagnitude": 1.0
+                          },
+                          "magnitude": 0.5,
+                          "sqrMagnitude": 0.25
+                        },
+                        "maxAnchor": {
+                          "x": 1.0,
+                          "y": 0.5,
+                          "normalized": {
+                            "x": 0.8944272,
+                            "y": 0.4472136,
+                            "magnitude": 1.0,
+                            "sqrMagnitude": 1.0
+                          },
+                          "magnitude": 1.118034,
+                          "sqrMagnitude": 1.25
+                        },
+                        "sizeDelta": {
+                          "x": -200.814,
+                          "y": 100.0,
+                          "normalized": {
+                            "x": -0.8951517,
+                            "y": 0.4457616,
+                            "normalized": {
+                              "x": -0.895151734,
+                              "y": 0.445761621,
+                              "magnitude": 1.0,
+                              "sqrMagnitude": 1.0
+                            },
+                            "magnitude": 0.99999994,
+                            "sqrMagnitude": 0.99999994
+                          },
+                          "magnitude": 224.335159,
+                          "sqrMagnitude": 50326.26
+                        },
+                        "offSetMax": {
+                          "x": 4.57763672E-05,
+                          "y": 153.0,
+                          "normalized": {
+                            "x": 2.99191953E-07,
+                            "y": 1.0,
+                            "magnitude": 1.0,
+                            "sqrMagnitude": 1.0
+                          },
+                          "magnitude": 153.0,
+                          "sqrMagnitude": 23409.0
+                        },
+                        "offSetMin": {
+                          "x": 200.814041,
+                          "y": 53.0,
+                          "normalized": {
+                            "x": 0.9668916,
+                            "y": 0.2551876,
+                            "magnitude": 1.0,
+                            "sqrMagnitude": 1.0
+                          },
+                          "magnitude": 207.690338,
+                          "sqrMagnitude": 43135.2773
+                        },
+                        "pivot": {
+                          "x": 0.5,
+                          "y": 0.5,
+                          "normalized": {
+                            "x": 0.707106769,
+                            "y": 0.707106769,
+                            "magnitude": 1.0,
+                            "sqrMagnitude": 0.99999994
+                          },
+                          "magnitude": 0.707106769,
+                          "sqrMagnitude": 0.5
+                        }
+                      },
+                      "children": [
+                        {
+                          "name": "Text_adHeadline",
+                          "componentType": [
+                            "UnityEngine.RectTransform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                            "UnityEngine.CanvasRenderer, UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                            "UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                          ],
+                          "position": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                          },
+                          "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0,
+                            "eulerAngles": {
+                              "x": 0.0,
+                              "y": 0.0,
+                              "z": 0.0
+                            }
+                          },
+                          "scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "color": {
+                            "r": 0,
+                            "g": 0,
+                            "b": 0,
+                            "a": 0
+                          },
+                          "textColor": {
+                            "r": 50,
+                            "g": 50,
+                            "b": 50,
+                            "a": 255
+                          },
+                          "tag": "BoldText",
+                          "text": "Test Ad : Flood - It!",
+                          "textAlignment": 3,
+                          "spriteLocation": null,
+                          "rating": 0,
+                          "parentName": "AppInfo",
+                          "uiTransformValues": {
+                            "minAnchor": {
+                              "x": 0.0,
+                              "y": 0.5,
+                              "normalized": {
+                                "x": 0.0,
+                                "y": 1.0,
+                                "magnitude": 1.0,
+                                "sqrMagnitude": 1.0
+                              },
+                              "magnitude": 0.5,
+                              "sqrMagnitude": 0.25
+                            },
+                            "maxAnchor": {
+                              "x": 1.0,
+                              "y": 0.5,
+                              "normalized": {
+                                "x": 0.8944272,
+                                "y": 0.4472136,
+                                "magnitude": 1.0,
+                                "sqrMagnitude": 1.0
+                              },
+                              "magnitude": 1.118034,
+                              "sqrMagnitude": 1.25
+                            },
+                            "sizeDelta": {
+                              "x": 0.0,
+                              "y": 50.0,
+                              "normalized": {
+                                "x": 0.0,
+                                "y": 1.0,
+                                "magnitude": 1.0,
+                                "sqrMagnitude": 1.0
+                              },
+                              "magnitude": 50.0,
+                              "sqrMagnitude": 2500.0
+                            },
+                            "offSetMax": {
+                              "x": 0.0,
+                              "y": 25.0,
+                              "normalized": {
+                                "x": 0.0,
+                                "y": 1.0,
+                                "magnitude": 1.0,
+                                "sqrMagnitude": 1.0
+                              },
+                              "magnitude": 25.0,
+                              "sqrMagnitude": 625.0
+                            },
+                            "offSetMin": {
+                              "x": 0.0,
+                              "y": -25.0,
+                              "normalized": {
+                                "x": 0.0,
+                                "y": -1.0,
+                                "magnitude": 1.0,
+                                "sqrMagnitude": 1.0
+                              },
+                              "magnitude": 25.0,
+                              "sqrMagnitude": 625.0
+                            },
+                            "pivot": {
+                              "x": 0.5,
+                              "y": 0.5,
+                              "normalized": {
+                                "x": 0.707106769,
+                                "y": 0.707106769,
+                                "magnitude": 1.0,
+                                "sqrMagnitude": 0.99999994
+                              },
+                              "magnitude": 0.707106769,
+                              "sqrMagnitude": 0.5
+                            }
+                          },
+                          "children": []
+                        },
+                        {
+                          "name": "StarRating",
+                          "componentType": [
+                            "UnityEngine.RectTransform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                          ],
+                          "position": {
+                            "x": -262.0,
+                            "y": -69.3,
+                            "z": 0.0
+                          },
+                          "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0,
+                            "eulerAngles": {
+                              "x": 0.0,
+                              "y": 0.0,
+                              "z": 0.0
+                            }
+                          },
+                          "scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "color": {
+                            "r": 0,
+                            "g": 0,
+                            "b": 0,
+                            "a": 0
+                          },
+                          "textColor": {
+                            "r": 0,
+                            "g": 0,
+                            "b": 0,
+                            "a": 0
+                          },
+                          "tag": "Untagged",
+                          "text": null,
+                          "textAlignment": 4,
+                          "spriteLocation": null,
+                          "rating": 0,
+                          "parentName": "AppInfo",
+                          "uiTransformValues": {
+                            "minAnchor": {
+                              "x": 0.5,
+                              "y": 0.5,
+                              "normalized": {
+                                "x": 0.707106769,
+                                "y": 0.707106769,
+                                "magnitude": 1.0,
+                                "sqrMagnitude": 0.99999994
+                              },
+                              "magnitude": 0.707106769,
+                              "sqrMagnitude": 0.5
+                            },
+                            "maxAnchor": {
+                              "x": 0.5,
+                              "y": 0.5,
+                              "normalized": {
+                                "x": 0.707106769,
+                                "y": 0.707106769,
+                                "magnitude": 1.0,
+                                "sqrMagnitude": 0.99999994
+                              },
+                              "magnitude": 0.707106769,
+                              "sqrMagnitude": 0.5
+                            },
+                            "sizeDelta": {
+                              "x": 200.0,
+                              "y": 50.0,
+                              "normalized": {
+                                "x": 0.9701425,
+                                "y": 0.242535621,
+                                "magnitude": 1.0,
+                                "sqrMagnitude": 0.99999994
+                              },
+                              "magnitude": 206.155289,
+                              "sqrMagnitude": 42500.0
+                            },
+                            "offSetMax": {
+                              "x": -162.0,
+                              "y": -44.3000031,
+                              "normalized": {
+                                "x": -0.964585,
+                                "y": -0.263772339,
+                                "magnitude": 1.0,
+                                "sqrMagnitude": 1.00000012
+                              },
+                              "magnitude": 167.947876,
+                              "sqrMagnitude": 28206.49
+                            },
+                            "offSetMin": {
+                              "x": -362.0,
+                              "y": -94.3,
+                              "normalized": {
+                                "x": -0.9677052,
+                                "y": -0.252084523,
+                                "magnitude": 1.0,
+                                "sqrMagnitude": 0.99999994
+                              },
+                              "magnitude": 374.080872,
+                              "sqrMagnitude": 139936.484
+                            },
+                            "pivot": {
+                              "x": 0.5,
+                              "y": 0.5,
+                              "normalized": {
+                                "x": 0.707106769,
+                                "y": 0.707106769,
+                                "magnitude": 1.0,
+                                "sqrMagnitude": 0.99999994
+                              },
+                              "magnitude": 0.707106769,
+                              "sqrMagnitude": 0.5
+                            }
+                          },
+                          "children": [
+                            {
+                              "name": "fill",
+                              "componentType": [
+                                "UnityEngine.RectTransform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                                "UnityEngine.CanvasRenderer, UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                                "UnityEngine.UI.Image, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                              ],
+                              "position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                              },
+                              "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0,
+                                "eulerAngles": {
+                                  "x": 0.0,
+                                  "y": 0.0,
+                                  "z": 0.0
+                                }
+                              },
+                              "scale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "color": {
+                                "r": 47,
+                                "g": 203,
+                                "b": 179,
+                                "a": 255
+                              },
+                              "textColor": {
+                                "r": 0,
+                                "g": 0,
+                                "b": 0,
+                                "a": 0
+                              },
+                              "tag": "Fill",
+                              "text": null,
+                              "textAlignment": 4,
+                              "spriteLocation": "FilledStar",
+                              "rating": 2,
+                              "parentName": "StarRating",
+                              "uiTransformValues": {
+                                "minAnchor": {
+                                  "x": 0.0,
+                                  "y": 0.0,
+                                  "magnitude": 0.0,
+                                  "sqrMagnitude": 0.0
+                                },
+                                "maxAnchor": {
+                                  "x": 1.0,
+                                  "y": 1.0,
+                                  "normalized": {
+                                    "x": 0.707106769,
+                                    "y": 0.707106769,
+                                    "magnitude": 1.0,
+                                    "sqrMagnitude": 0.99999994
+                                  },
+                                  "magnitude": 1.41421354,
+                                  "sqrMagnitude": 2.0
+                                },
+                                "sizeDelta": {
+                                  "x": -1.0,
+                                  "y": -1.0,
+                                  "normalized": {
+                                    "x": -0.707106769,
+                                    "y": -0.707106769,
+                                    "magnitude": 1.0,
+                                    "sqrMagnitude": 0.99999994
+                                  },
+                                  "magnitude": 1.41421354,
+                                  "sqrMagnitude": 2.0
+                                },
+                                "offSetMax": {
+                                  "x": -0.5,
+                                  "y": -0.5,
+                                  "normalized": {
+                                    "x": -0.707106769,
+                                    "y": -0.707106769,
+                                    "magnitude": 1.0,
+                                    "sqrMagnitude": 0.99999994
+                                  },
+                                  "magnitude": 0.707106769,
+                                  "sqrMagnitude": 0.5
+                                },
+                                "offSetMin": {
+                                  "x": 0.5,
+                                  "y": 0.5,
+                                  "normalized": {
+                                    "x": 0.707106769,
+                                    "y": 0.707106769,
+                                    "magnitude": 1.0,
+                                    "sqrMagnitude": 0.99999994
+                                  },
+                                  "magnitude": 0.707106769,
+                                  "sqrMagnitude": 0.5
+                                },
+                                "pivot": {
+                                  "x": 0.5,
+                                  "y": 0.5,
+                                  "normalized": {
+                                    "x": 0.707106769,
+                                    "y": 0.707106769,
+                                    "magnitude": 1.0,
+                                    "sqrMagnitude": 0.99999994
+                                  },
+                                  "magnitude": 0.707106769,
+                                  "sqrMagnitude": 0.5
+                                }
+                              },
+                              "children": []
+                            },
+                            {
+                              "name": "outline",
+                              "componentType": [
+                                "UnityEngine.RectTransform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                                "UnityEngine.CanvasRenderer, UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                                "UnityEngine.UI.Image, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                              ],
+                              "position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                              },
+                              "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0,
+                                "eulerAngles": {
+                                  "x": 0.0,
+                                  "y": 0.0,
+                                  "z": 0.0
+                                }
+                              },
+                              "scale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                              },
+                              "color": {
+                                "r": 47,
+                                "g": 203,
+                                "b": 179,
+                                "a": 255
+                              },
+                              "textColor": {
+                                "r": 0,
+                                "g": 0,
+                                "b": 0,
+                                "a": 0
+                              },
+                              "tag": "Untagged",
+                              "text": null,
+                              "textAlignment": 4,
+                              "spriteLocation": "OutlineStar",
+                              "rating": 0,
+                              "parentName": "StarRating",
+                              "uiTransformValues": {
+                                "minAnchor": {
+                                  "x": 0.0,
+                                  "y": 0.0,
+                                  "magnitude": 0.0,
+                                  "sqrMagnitude": 0.0
+                                },
+                                "maxAnchor": {
+                                  "x": 1.0,
+                                  "y": 1.0,
+                                  "normalized": {
+                                    "x": 0.707106769,
+                                    "y": 0.707106769,
+                                    "magnitude": 1.0,
+                                    "sqrMagnitude": 0.99999994
+                                  },
+                                  "magnitude": 1.41421354,
+                                  "sqrMagnitude": 2.0
+                                },
+                                "sizeDelta": {
+                                  "x": 1.0,
+                                  "y": 0.0,
+                                  "magnitude": 1.0,
+                                  "sqrMagnitude": 1.0
+                                },
+                                "offSetMax": {
+                                  "x": 0.5,
+                                  "y": 0.0,
+                                  "normalized": {
+                                    "x": 1.0,
+                                    "y": 0.0,
+                                    "magnitude": 1.0,
+                                    "sqrMagnitude": 1.0
+                                  },
+                                  "magnitude": 0.5,
+                                  "sqrMagnitude": 0.25
+                                },
+                                "offSetMin": {
+                                  "x": -0.5,
+                                  "y": 0.0,
+                                  "normalized": {
+                                    "x": -1.0,
+                                    "y": 0.0,
+                                    "magnitude": 1.0,
+                                    "sqrMagnitude": 1.0
+                                  },
+                                  "magnitude": 0.5,
+                                  "sqrMagnitude": 0.25
+                                },
+                                "pivot": {
+                                  "x": 0.5,
+                                  "y": 0.5,
+                                  "normalized": {
+                                    "x": 0.707106769,
+                                    "y": 0.707106769,
+                                    "magnitude": 1.0,
+                                    "sqrMagnitude": 0.99999994
+                                  },
+                                  "magnitude": 0.707106769,
+                                  "sqrMagnitude": 0.5
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Text_store",
+                          "componentType": [
+                            "UnityEngine.RectTransform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                          ],
+                          "position": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                          },
+                          "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0,
+                            "eulerAngles": {
+                              "x": 0.0,
+                              "y": 0.0,
+                              "z": 0.0
+                            }
+                          },
+                          "scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "color": {
+                            "r": 0,
+                            "g": 0,
+                            "b": 0,
+                            "a": 0
+                          },
+                          "textColor": {
+                            "r": 0,
+                            "g": 0,
+                            "b": 0,
+                            "a": 0
+                          },
+                          "tag": "Untagged",
+                          "text": null,
+                          "textAlignment": 4,
+                          "spriteLocation": null,
+                          "rating": 0,
+                          "parentName": "AppInfo",
+                          "uiTransformValues": {
+                            "minAnchor": {
+                              "x": 0.5,
+                              "y": 0.5,
+                              "normalized": {
+                                "x": 0.707106769,
+                                "y": 0.707106769,
+                                "magnitude": 1.0,
+                                "sqrMagnitude": 0.99999994
+                              },
+                              "magnitude": 0.707106769,
+                              "sqrMagnitude": 0.5
+                            },
+                            "maxAnchor": {
+                              "x": 0.5,
+                              "y": 0.5,
+                              "normalized": {
+                                "x": 0.707106769,
+                                "y": 0.707106769,
+                                "magnitude": 1.0,
+                                "sqrMagnitude": 0.99999994
+                              },
+                              "magnitude": 0.707106769,
+                              "sqrMagnitude": 0.5
+                            },
+                            "sizeDelta": {
+                              "x": 100.0,
+                              "y": 100.0,
+                              "normalized": {
+                                "x": 0.707106769,
+                                "y": 0.707106769,
+                                "magnitude": 1.0,
+                                "sqrMagnitude": 0.99999994
+                              },
+                              "magnitude": 141.421356,
+                              "sqrMagnitude": 20000.0
+                            },
+                            "offSetMax": {
+                              "x": 50.0,
+                              "y": 50.0,
+                              "normalized": {
+                                "x": 0.707106769,
+                                "y": 0.707106769,
+                                "magnitude": 1.0,
+                                "sqrMagnitude": 0.99999994
+                              },
+                              "magnitude": 70.71068,
+                              "sqrMagnitude": 5000.0
+                            },
+                            "offSetMin": {
+                              "x": -50.0,
+                              "y": -50.0,
+                              "normalized": {
+                                "x": -0.707106769,
+                                "y": -0.707106769,
+                                "magnitude": 1.0,
+                                "sqrMagnitude": 0.99999994
+                              },
+                              "magnitude": 70.71068,
+                              "sqrMagnitude": 5000.0
+                            },
+                            "pivot": {
+                              "x": 0.5,
+                              "y": 0.5,
+                              "normalized": {
+                                "x": 0.707106769,
+                                "y": 0.707106769,
+                                "magnitude": 1.0,
+                                "sqrMagnitude": 0.99999994
+                              },
+                              "magnitude": 0.707106769,
+                              "sqrMagnitude": 0.5
+                            }
+                          },
+                          "children": []
+                        },
+                        {
+                          "name": "priceTxt",
+                          "componentType": [
+                            "UnityEngine.RectTransform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                            "UnityEngine.CanvasRenderer, UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                            "UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                          ],
+                          "position": {
+                            "x": -281.6,
+                            "y": -108.9,
+                            "z": 0.0
+                          },
+                          "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0,
+                            "eulerAngles": {
+                              "x": 0.0,
+                              "y": 0.0,
+                              "z": 0.0
+                            }
+                          },
+                          "scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                          },
+                          "color": {
+                            "r": 0,
+                            "g": 0,
+                            "b": 0,
+                            "a": 0
+                          },
+                          "textColor": {
+                            "r": 0,
+                            "g": 0,
+                            "b": 0,
+                            "a": 255
+                          },
+                          "tag": "Untagged",
+                          "text": "FREE",
+                          "textAlignment": 3,
+                          "spriteLocation": null,
+                          "rating": 0,
+                          "parentName": "AppInfo",
+                          "uiTransformValues": {
+                            "minAnchor": {
+                              "x": 0.5,
+                              "y": 0.5,
+                              "normalized": {
+                                "x": 0.707106769,
+                                "y": 0.707106769,
+                                "magnitude": 1.0,
+                                "sqrMagnitude": 0.99999994
+                              },
+                              "magnitude": 0.707106769,
+                              "sqrMagnitude": 0.5
+                            },
+                            "maxAnchor": {
+                              "x": 0.5,
+                              "y": 0.5,
+                              "normalized": {
+                                "x": 0.707106769,
+                                "y": 0.707106769,
+                                "magnitude": 1.0,
+                                "sqrMagnitude": 0.99999994
+                              },
+                              "magnitude": 0.707106769,
+                              "sqrMagnitude": 0.5
+                            },
+                            "sizeDelta": {
+                              "x": 150.0,
+                              "y": 30.0,
+                              "normalized": {
+                                "x": 0.9805807,
+                                "y": 0.196116135,
+                                "magnitude": 1.0,
+                                "sqrMagnitude": 1.0
+                              },
+                              "magnitude": 152.970581,
+                              "sqrMagnitude": 23400.0
+                            },
+                            "offSetMax": {
+                              "x": -206.6,
+                              "y": -93.9,
+                              "normalized": {
+                                "x": -0.910381556,
+                                "y": -0.413769722,
+                                "magnitude": 1.0,
+                                "sqrMagnitude": 0.99999994
+                              },
+                              "magnitude": 226.93782,
+                              "sqrMagnitude": 51500.7734
+                            },
+                            "offSetMin": {
+                              "x": -356.6,
+                              "y": -123.9,
+                              "normalized": {
+                                "x": -0.9446075,
+                                "y": -0.3282021,
+                                "normalized": {
+                                  "x": -0.944607556,
+                                  "y": -0.328202128,
+                                  "magnitude": 1.0,
+                                  "sqrMagnitude": 1.00000012
+                                },
+                                "magnitude": 0.99999994,
+                                "sqrMagnitude": 0.99999994
+                              },
+                              "magnitude": 377.5113,
+                              "sqrMagnitude": 142514.781
+                            },
+                            "pivot": {
+                              "x": 0.5,
+                              "y": 0.5,
+                              "normalized": {
+                                "x": 0.707106769,
+                                "y": 0.707106769,
+                                "magnitude": 1.0,
+                                "sqrMagnitude": 0.99999994
+                              },
+                              "magnitude": 0.707106769,
+                              "sqrMagnitude": 0.5
+                            }
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Text_body",
+                      "componentType": [
+                        "UnityEngine.RectTransform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "UnityEngine.CanvasRenderer, UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      ],
+                      "position": {
+                        "x": 0.0,
+                        "y": -69.0,
+                        "z": 0.0
+                      },
+                      "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0,
+                        "eulerAngles": {
+                          "x": 0.0,
+                          "y": 0.0,
+                          "z": 0.0
+                        }
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0
+                      },
+                      "textColor": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 255
+                      },
+                      "tag": "Untagged",
+                      "text": "Install Flood-It App for free! Free Popular\nCasual Game",
+                      "textAlignment": 3,
+                      "spriteLocation": null,
+                      "rating": 0,
+                      "parentName": "Appdetails",
+                      "uiTransformValues": {
+                        "minAnchor": {
+                          "x": 0.0,
+                          "y": 0.5,
+                          "normalized": {
+                            "x": 0.0,
+                            "y": 1.0,
+                            "magnitude": 1.0,
+                            "sqrMagnitude": 1.0
+                          },
+                          "magnitude": 0.5,
+                          "sqrMagnitude": 0.25
+                        },
+                        "maxAnchor": {
+                          "x": 1.0,
+                          "y": 0.5,
+                          "normalized": {
+                            "x": 0.8944272,
+                            "y": 0.4472136,
+                            "magnitude": 1.0,
+                            "sqrMagnitude": 1.0
+                          },
+                          "magnitude": 1.118034,
+                          "sqrMagnitude": 1.25
+                        },
+                        "sizeDelta": {
+                          "x": -60.0,
+                          "y": 100.0,
+                          "normalized": {
+                            "x": -0.51449573,
+                            "y": 0.8574929,
+                            "magnitude": 1.0,
+                            "sqrMagnitude": 1.0
+                          },
+                          "magnitude": 116.619041,
+                          "sqrMagnitude": 13600.0
+                        },
+                        "offSetMax": {
+                          "x": -30.0,
+                          "y": -19.0,
+                          "normalized": {
+                            "x": -0.844819069,
+                            "y": -0.535052061,
+                            "magnitude": 1.0,
+                            "sqrMagnitude": 0.99999994
+                          },
+                          "magnitude": 35.5105629,
+                          "sqrMagnitude": 1261.0
+                        },
+                        "offSetMin": {
+                          "x": 30.0,
+                          "y": -119.0,
+                          "normalized": {
+                            "x": 0.244452417,
+                            "y": -0.9696613,
+                            "magnitude": 1.0,
+                            "sqrMagnitude": 1.0
+                          },
+                          "magnitude": 122.723267,
+                          "sqrMagnitude": 15061.0
+                        },
+                        "pivot": {
+                          "x": 0.5,
+                          "y": 0.5,
+                          "normalized": {
+                            "x": 0.707106769,
+                            "y": 0.707106769,
+                            "magnitude": 1.0,
+                            "sqrMagnitude": 0.99999994
+                          },
+                          "magnitude": 0.707106769,
+                          "sqrMagnitude": 0.5
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Button_Cta",
+                  "componentType": [
+                    "UnityEngine.RectTransform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "UnityEngine.UI.Button, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "UnityEngine.CanvasRenderer, UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "UnityEngine.UI.Image, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                  ],
+                  "position": {
+                    "x": 0.0,
+                    "y": -167.0,
+                    "z": 0.0
+                  },
+                  "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0,
+                    "eulerAngles": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    }
+                  },
+                  "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  },
+                  "color": {
+                    "r": 47,
+                    "g": 203,
+                    "b": 179,
+                    "a": 255
+                  },
+                  "textColor": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 0
+                  },
+                  "tag": "Untagged",
+                  "text": null,
+                  "textAlignment": 4,
+                  "spriteLocation": "rounded-square",
+                  "rating": 0,
+                  "parentName": "Padding",
+                  "uiTransformValues": {
+                    "minAnchor": {
+                      "x": 0.0,
+                      "y": 0.5,
+                      "normalized": {
+                        "x": 0.0,
+                        "y": 1.0,
+                        "magnitude": 1.0,
+                        "sqrMagnitude": 1.0
+                      },
+                      "magnitude": 0.5,
+                      "sqrMagnitude": 0.25
+                    },
+                    "maxAnchor": {
+                      "x": 1.0,
+                      "y": 0.5,
+                      "normalized": {
+                        "x": 0.8944272,
+                        "y": 0.4472136,
+                        "magnitude": 1.0,
+                        "sqrMagnitude": 1.0
+                      },
+                      "magnitude": 1.118034,
+                      "sqrMagnitude": 1.25
+                    },
+                    "sizeDelta": {
+                      "x": -100.0,
+                      "y": 90.0,
+                      "normalized": {
+                        "x": -0.7432942,
+                        "y": 0.668964744,
+                        "magnitude": 1.0,
+                        "sqrMagnitude": 1.00000012
+                      },
+                      "magnitude": 134.53624,
+                      "sqrMagnitude": 18100.0
+                    },
+                    "offSetMax": {
+                      "x": -50.0,
+                      "y": -122.0,
+                      "normalized": {
+                        "x": -0.3792234,
+                        "y": -0.925305068,
+                        "normalized": {
+                          "x": -0.379223436,
+                          "y": -0.9253051,
+                          "magnitude": 1.0,
+                          "sqrMagnitude": 1.0
+                        },
+                        "magnitude": 0.99999994,
+                        "sqrMagnitude": 0.9999999
+                      },
+                      "magnitude": 131.8484,
+                      "sqrMagnitude": 17384.0
+                    },
+                    "offSetMin": {
+                      "x": 50.0,
+                      "y": -212.0,
+                      "normalized": {
+                        "x": 0.229551092,
+                        "y": -0.9732966,
+                        "magnitude": 1.0,
+                        "sqrMagnitude": 0.99999994
+                      },
+                      "magnitude": 217.816437,
+                      "sqrMagnitude": 47444.0
+                    },
+                    "pivot": {
+                      "x": 0.5,
+                      "y": 0.5,
+                      "normalized": {
+                        "x": 0.707106769,
+                        "y": 0.707106769,
+                        "magnitude": 1.0,
+                        "sqrMagnitude": 0.99999994
+                      },
+                      "magnitude": 0.707106769,
+                      "sqrMagnitude": 0.5
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "Text_CallToAction",
+                      "componentType": [
+                        "UnityEngine.RectTransform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "UnityEngine.CanvasRenderer, UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                        "UnityEngine.UI.Text, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+                      ],
+                      "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                      },
+                      "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0,
+                        "eulerAngles": {
+                          "x": 0.0,
+                          "y": 0.0,
+                          "z": 0.0
+                        }
+                      },
+                      "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      },
+                      "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0
+                      },
+                      "textColor": {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "a": 255
+                      },
+                      "tag": "BoldText",
+                      "text": "INSTALL",
+                      "textAlignment": 4,
+                      "spriteLocation": null,
+                      "rating": 0,
+                      "parentName": "Button_Cta",
+                      "uiTransformValues": {
+                        "minAnchor": {
+                          "x": 0.0,
+                          "y": 0.0,
+                          "magnitude": 0.0,
+                          "sqrMagnitude": 0.0
+                        },
+                        "maxAnchor": {
+                          "x": 1.0,
+                          "y": 1.0,
+                          "normalized": {
+                            "x": 0.707106769,
+                            "y": 0.707106769,
+                            "magnitude": 1.0,
+                            "sqrMagnitude": 0.99999994
+                          },
+                          "magnitude": 1.41421354,
+                          "sqrMagnitude": 2.0
+                        },
+                        "sizeDelta": {
+                          "x": 0.0,
+                          "y": 0.0,
+                          "magnitude": 0.0,
+                          "sqrMagnitude": 0.0
+                        },
+                        "offSetMax": {
+                          "x": 0.0,
+                          "y": 0.0,
+                          "magnitude": 0.0,
+                          "sqrMagnitude": 0.0
+                        },
+                        "offSetMin": {
+                          "x": 0.0,
+                          "y": 0.0,
+                          "magnitude": 0.0,
+                          "sqrMagnitude": 0.0
+                        },
+                        "pivot": {
+                          "x": 0.5,
+                          "y": 0.5,
+                          "normalized": {
+                            "x": 0.707106769,
+                            "y": 0.707106769,
+                            "magnitude": 1.0,
+                            "sqrMagnitude": 0.99999994
+                          },
+                          "magnitude": 0.707106769,
+                          "sqrMagnitude": 0.5
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
